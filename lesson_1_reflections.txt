@@ -1,0 +1,41 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	Ans :- diff is a CLI tool that helps you to compare two files(two versions of a file). it shows you the lines
+		   where something is added and something is removed. that way you can spot the lines that caused the error
+		   (the bug).
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Ans :- I believe if it wasnt for VCS programmers would have spent quite a long time trying to figure out what
+		   went wrong in their program. trying to spot the bug. so as a programmer easily accessing previous versions
+		   of my file and comparing the differences will help me to find an error easily which reduces the
+		   time I spend looking for it. I believe that will make me a more efficient programmer
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions 
+   automatically saved, like Google Docs does
+	Ans :- pros
+				you choose when to commit so only the commit history that you believe is valuable and meaningful will
+				be there...if you choose to commit only when there is a logical change.
+			cons
+				you may forget to save and commit which may lead to uncommiting when there is a logical change and making
+				the commit size too big when you commit.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, 
+   treat each file separately?
+
+   Ans :- because related files are supposed to be saved and tracked together. and it doesnt matter if completely unrelated files 
+   		  tracked separately. git is usually used to track documents in coding. and in coding there is likely to be a lot of 
+   		  related files which need to be tracked together.
+
+5. How can you use the commands git log and git diff to view the history of files?
+	Ans :- on a repository that uses git the command 'git log' shows you the commit history, each commit having a unique id.
+	       and you use the git diff command to differentiate between two commits. and you can see which lines were added and which 
+	       were removed.
+
+6. How might using version control make you more confident to make changes that could break something?
+	Ans :- because I can always go back to the previous version that is before I made the changes if a bug is introduced in the 
+		   version where I made the changes. also If I dont remember where I made the changes or forget what changes I made 
+		   I can still compare commits and see which piece of code introduced the bug.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+	Ans :- I would want to use git to an actual purpose. like tracking changes for a simple app that I make.
+
+
