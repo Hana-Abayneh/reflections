@@ -1,7 +1,6 @@
 1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
 	Ans :- diff is a CLI tool that helps you to compare two files(two versions of a file). it shows you the lines
-		   where something is added and something is removed. that way you can spot the lines that caused the error
-		   (the bug).
+		   where something is added and something is removed. that way you can spot the lines that caused the error.
 
 2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 	Ans :- I believe if it wasnt for VCS programmers would have spent quite a long time trying to figure out what

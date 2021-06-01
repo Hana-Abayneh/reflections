@@ -14,3 +14,5 @@
 	       area is useful because it allows us to pick files that we want to commit. say there are 3 files changed
    	       and we want only the two to be committed. so we can add the two then when we git commit only the two will
 	       be committed.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
