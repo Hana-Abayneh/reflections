@@ -16,3 +16,23 @@
 	       be committed.
 
 3. How can you use the staging area to make sure you have one commit per logical change?
+	Ans :- after we made a single logical change then we can add that to the staging area. and by checking git status
+		   we can see what we have in our staging area.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Ans :- you may want to have branches when there is a feature you would want to expriment on before actually adding 
+		   it. or when you are trying out a significant change on your project. branches help to simply get back to your
+		   intact original version of your code. git branches help to keep your project organized, especially if you are
+		   sharing it publicly. 
+
+5. How do the diagrams help you visualize the branch structure?
+	Ans :- the diagrams are like what you actually try to picture in mind when you are learning about branching at first.
+		   so seeing that in picture and actually viewing it helps a lot to understand the structure. picture or visual
+		   illustrations are a great way to understand a concept.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Ans :- the result of merging two branches together is a single branch that has all the code changes from both branches.
+	   	   commits from both sides will be interleaved in a single list and their order will be based on the time they were 
+	   	   created. the commit that comes from the merge will have two parents which means it will point to two different 
+	   	   commits. those are the final commits of both branches. we represent it in the diagram the way we do because it 
+	   	   is better understood when we visualize it.
